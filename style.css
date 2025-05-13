@@ -71,7 +71,7 @@ body {
     font-size: 28%;
   }
   .hero{
-    height:112rem;
+    max-height:112rem;
   }
   .about{
     max-height:127rem;

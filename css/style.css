@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Varino';
-  src: url('/assets/fonts/Varino.ttf') format('truetype');
+  src: url('assets/fonts/Varino.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -331,7 +331,7 @@ color: #FF6B00;
 .bikes-hybrid {
   flex: 1;
   border-radius: 5rem;
-  background-image: url('/assets/images/hybrid.avif');
+  background-image: url('assets/images/hybrid.avif');
   background-size: cover;
   background-position: center;
   height:46rem;
@@ -350,7 +350,7 @@ color: #FF6B00;
 .bikes-electric {
   flex: 1;
   border-radius: 5rem;
-  background-image: url('/assets/images/electric.avif');
+  background-image: url('assets/images/electric.avif');
   background-size: cover;
   background-position: center;
   height:46rem;
@@ -389,7 +389,7 @@ color: #FF6B00;
   display: flex;
   height: 38rem;
   padding: 2rem;
-  background-image: url('/assets/images/build.jpg');
+  background-image: url('assets/images/build.jpg');
   background-size: cover;
   border-radius: 5rem;
 }
@@ -481,7 +481,7 @@ color: #FF6B00;
 
 .reviews-client-E {
   border-radius: 5rem;
-  background-image: url('/assets/images/reviews-E.jpg');
+  background-image: url('assets/images/reviews-E.jpg');
   background-size: cover;
   height: 38rem;
   width:38rem;
@@ -493,7 +493,7 @@ color: #FF6B00;
 
 .reviews-client-H {
   border-radius: 5rem;
-  background-image: url('/assets/images/reviews-H.jpeg');
+  background-image: url('assets/images/reviews-H.jpeg');
   background-size: cover;
   height: 38rem;
   width:38rem;
@@ -609,7 +609,7 @@ color: #FF6B00;
 .parts {
   flex: 1;
   border-radius: 5rem;
-  background-image: url('/assets/images/parts01.jpg');
+  background-image: url('assets/images/parts01.jpg');
   background-size: cover;
   height:38rem;
   padding: 1rem 2rem;
@@ -629,7 +629,7 @@ color: #FF6B00;
 .accessories {
   flex: 1;
   border-radius: 5rem;
-  background-image: url('/assets/images/acc01.jpg');
+  background-image: url('assets/images/acc01.jpg');
   background-size: cover;
   height:38rem;
   padding: 1rem 2rem;
@@ -642,7 +642,7 @@ color: #FF6B00;
 .merch {
   flex: 1;
   border-radius: 5rem;
-  background-image: url('/assets/images/merch01.png');
+  background-image: url('assets/images/merch01.png');
   background-size: cover;
   height:38rem;
   padding: 1rem 2rem;
@@ -673,16 +673,16 @@ color: #FF6B00;
 }
 
 .parts:hover {
-  background-image: url('/assets/images/parts02.jpg');
+  background-image: url('assets/images/parts02.jpg');
   transition: background-image 1s ease; 
 }
 .accessories:hover {
-  background-image: url('/assets/images/acc02.jpg');
+  background-image: url('assets/images/acc02.jpg');
   transition: background-image 1s ease;
    
 }
 .merch:hover {
-  background-image: url('/assets/images/merch02.png');
+  background-image: url('assets/images/merch02.png');
   transition: background-image 1s ease; 
 }
 
@@ -692,7 +692,7 @@ color: #FF6B00;
 }
 
 .community-container {
-  background-image: url('/assets/images/community.png');
+  background-image: url('assets/images/community.png');
   height: 50rem;
   padding: 2rem;
   border-radius: 5rem;
@@ -703,7 +703,7 @@ color: #FF6B00;
 }
 
 .community-container:hover {
-  background-image: url('/assets/images/community01.jpg');
+  background-image: url('assets/images/community01.jpg');
   background-size: cover;
   background-position:center;
   transition: background-image 1s ease;
@@ -1021,7 +1021,7 @@ footer {
 .footer-action {
   flex: 1;
   padding: 4rem;
-  background-image: url('/assets/images/footer.jpg');
+  background-image: url('assets/images/footer.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 5rem;

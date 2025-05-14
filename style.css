@@ -46,71 +46,19 @@ body {
   html {
     font-size: 35%;
   }
-  .hero{
-    max-height:143rem;
-  }
-  .about{
-    max-height:163rem;
-  }
-  .bikes{
-    max-height:163rem;
-  }
-  .contact-container{
-    max-height:163rem;
-  }
-  .faq{
-    max-height:205rem;
-  }
-  .community {
-    max-height:122rem;
-  }
+ 
 }
 
 @media (max-width:720px) {
   html {
     font-size: 28%;
   }
-  .hero{
-    max-height:112rem;
-  }
-  .about{
-    max-height:127rem;
-  }
-  .bikes{
-    max-height:127rem;
-  }
-  .contact-container{
-    max-height:127rem;
-  }
-  .faq{
-    max-height:161rem;
-  }
-  .community {
-    max-height:96rem;
-  }
+
 }
 
 @media (max-width:600px) {
   html {
     font-size: 20%;
-  }
-   .hero{
-    max-height:83rem;
-  }
-  .about{
-    max-height:106rem;
-  }
-  .bikes{
-    max-height:106rem;
-  }
-  .contact-container{
-    max-height:106rem;
-  }
-  .faq{
-    max-height:134rem;
-  }
-  .community {
-    max-height:80rem;
   }
 }
 
@@ -118,24 +66,6 @@ body {
   html {
     font-size: 15%;
   }
-  .hero{
-    max-height:70rem;
-  }
-  .about{
-    max-height:80rem;
-  }
-  .bikes{
-    max-height:80rem;
-  }
-  .contact-container{
-    max-height:80rem;
-  }
-  .faq{
-    max-height:100rem;
-  }
-  .community {
-    max-height:60rem;
-  } 
 }
 
 header {
@@ -169,7 +99,7 @@ color: #FF6B00;
 
 .hero {
   display: flex;
-  height: 85vh;
+  height: 68rem;
   overflow: hidden;
   position: relative;
   box-shadow: 0 -0.4rem 0.4rem -0.2rem rgba(0, 0, 0, 0.1);
@@ -190,11 +120,11 @@ color: #FF6B00;
   z-index: 2;
   color: black;
   width: 100%;
-  top: 10%;
-  font-size: 2rem;
+  top: 20%;
+  font-size: 2.5rem;
 }
 .hero-txt h1 {
-  font-size: 4rem;
+  font-size: 4.4rem;
   margin: 0;
   line-height: 2;
   font-family: 'Varino';
@@ -241,7 +171,7 @@ color: #FF6B00;
 
 .about {
   display: flex;
-  height: 100vh;
+  height: 80rem;
   
 }
 
@@ -302,7 +232,7 @@ color: #FF6B00;
 }
 
 .bikes {
-  height: 100vh;
+  height: 80rem;
 }
 
 .bikes-txt {
@@ -687,7 +617,7 @@ color: #FF6B00;
 }
 
 .community {
-  height: 80vh;
+  height: 62rem;
   padding: 5rem 2rem;
 }
 
@@ -753,7 +683,7 @@ color: #FF6B00;
 
 
 .faq {
-  height: 130vh;
+  height: 110rem;
   display: flex;
 }
 
@@ -861,7 +791,7 @@ color: #FF6B00;
 }
 
 .contact-container {
-  height: 100vh;
+  height: 80rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

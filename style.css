@@ -46,19 +46,12 @@ body {
   html {
     font-size: 35%;
   }
- 
 }
+
 
 @media (max-width:720px) {
   html {
-    font-size: 28%;
-  }
-
-}
-
-@media (max-width:570px) {
-  html {
-    font-size: 28%;
+    font-size: 35%;
   }
   .nav2, .nav3, .nav4, .nav5 {
     display: none;

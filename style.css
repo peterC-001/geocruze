@@ -56,15 +56,161 @@ body {
 
 }
 
-@media (max-width:600px) {
+@media (max-width:570px) {
   html {
-    font-size: 20%;
+    font-size: 28%;
   }
-}
+  .nav2, .nav3, .nav4, .nav5 {
+    display: none;
+  }
+  .nav6, .nav1 {
+    margin-left: 8rem !important;
+  }
+  .hero-txt {
+    font-size: 2.5rem !important;
+    top: 10% !important;
+  }
+  .hero-img-right {
+    width: 60rem !important;
+    left: 45% !important;
+    top: 50% !important;
+  }
+  .hero-img-left {
+    width: 60rem !important;
+    right: 45% !important;
+    top: 50% !important;
+  }
+  .about {
+    flex-direction: column;
+    height: 110rem !important;
+  }
+  .about-txt {
+    padding: 5rem 7rem !important;
+    text-align: center;
+    flex: 1 !important;
+  }
+  .about-image {
+    flex: 2.5 !important;
+  }
+  .about-img-container {
+    width: 65rem !important;
+    height: 50rem !important;
+  }
+  .bikes {
+    height: 110rem !important;
+  }
+  .bikes-container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .bikes-hybrid, .bikes-electric {
+    height: 40rem !important;
+    width: 60rem !important;
+    margin: 1rem 0rem !important;
+    flex: none !important;
+  }
+  .build-details-txt {
+    margin-right: 0rem !important;
+  }
+  .build-details-divider {
+    display: none !important;
+  }
+  .build-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .reviews {
+    height: 90rem !important;
+    flex-direction: column !important;
+  }
+  .reviews-txt {
+    padding: 2rem 8rem !important;
+    text-align: center !important;
+    flex: 0.7 !important;
+  }
+   .partners {
+    margin: 2rem 0 !important;
+    height: 6rem !important;
+    padding: 0.5 !important;
+  }
+  .partners-txt {
+    font-size: 1.8rem !important;
+    padding: 1.5rem 0 !important;
+    flex:1 !important;
+  }
+  .partners-container {
+    padding: 0 !important;
+    flex: 2!important;
+  }
+  .partners-logos {
+    padding: 1 !important;
+    gap: 1rem !important;
+  }
+  .partners-logo {
+    height: 3rem !important;
+    max-width: 10rem !important;
+  }
+  .parts-acc-merch {
+    height: 140rem !important;
+  }
+  .parts-acc-merch-txt {
+  
+    padding: 2rem 5rem !important;
+  }
+  .parts-acc-merch-container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .parts-item {
+    height: 30rem !important;
+    width: 50rem !important;
+    margin: 1rem 0rem !important;
+    flex: none !important;
+  }
+  .faq {
+    height: 170rem !important;
+    flex-direction: column !important;
+  }
+  .faq-txt {
+    padding: 2rem 3rem !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex: 0 !important;
+    height: 80rem !important;
 
-@media (max-width:450px) {
-  html {
-    font-size: 15%;
+  }
+  .faq-image-container {
+    height: 40rem !important;
+    width: 50rem !important;
+    margin-top: 5rem !important;
+  }
+  .faq-container {
+    height: 80rem !important;
+    width: 60rem !important;
+    margin: 0 auto !important;
+  }
+  .contact-txt {
+    padding-top: 3rem !important;
+  }
+  .contact-container {
+    height:110rem !important;
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
+  .contact-item {
+    height: 100rem !important;
+    flex-direction: column !important;
+  }
+  .contact-form-email {
+    max-width: 60rem !important;
+  }
+  .contact-us-icon {
+    width: 8rem !important;
+  }
+  footer {
+    flex-direction: column !important;
+    padding: 2rem 0 !important;
   }
 }
 
@@ -172,7 +318,6 @@ color: #FF6B00;
 .about {
   display: flex;
   height: 80rem;
-  
 }
 
 .about-txt {
@@ -255,7 +400,6 @@ color: #FF6B00;
 
 .bikes-container {
   display: flex;
-
 }
 
 .bikes-hybrid {
@@ -516,13 +660,12 @@ color: #FF6B00;
 }
 
 .parts-acc-merch {
-  height: 100%;
+  height: 80rem;
 }
 
 .parts-acc-merch-txt {
   text-align: center;
   padding: 2rem 20rem;
-
 }
 .parts-acc-merch-txt h1 {
   font-size: 3rem;
@@ -629,29 +772,8 @@ color: #FF6B00;
   background-size: cover;
   background-position:left;
   margin-top: 5rem;
-  transition: background-image 1s ease;
 }
-
-.community-container:hover {
-  background-image: url('assets/images/community01.jpg');
-  background-size: cover;
-  background-position:center;
-  transition: background-image 1s ease;
-} 
-
-.community-container:hover .community-txt {
-  color: white;
-  transition: color 1s ease;
  
-}
-
-.community-container:hover .community-btn {
-  color: white;
-  transition: background-color 1s ease;
-  transition: border-color 1s ease;
-  transition: color 1s ease;
-  border-color: white;
-}
 .community-txt {
   padding: 2rem;
   color: black;
@@ -690,6 +812,8 @@ color: #FF6B00;
 .faq-txt {
   flex: 1;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .faq-txt h2 {
@@ -903,7 +1027,6 @@ footer {
   display: flex;
   padding:5rem 0rem;
   gap: 4rem;
-  
 }
 
 .footer-txt {

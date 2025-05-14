@@ -4,6 +4,7 @@ const btnNext = document.querySelector(".reviews-btn-next");
 const reviewsWidth = document.querySelector(".reviews-client-E").offsetWidth;
 
 let index = 0;
+let width = window.innerWidth;
 
 btnNext.addEventListener("click", () => {
    event.preventDefault();

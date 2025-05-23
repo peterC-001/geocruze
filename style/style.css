@@ -53,11 +53,13 @@ body {
   html {
     font-size: 35%;
   }
-  .nav2, .nav3, .nav4, .nav5 {
-    display: none;
+  .nav-left, .nav-right {
+    display: none !important;
+    flex: 0 !important;
   }
-  .nav6, .nav1 {
-    margin-left: 8rem !important;
+  .menuIconBox {
+    display: flex !important;
+    margin-right:5rem ;
   }
   .hero-txt {
     font-size: 2.5rem !important;
@@ -236,6 +238,55 @@ font-family: 'Varino';
 color: #FF6B00;
 }
 
+.logo.active {
+  justify-content: left;
+  margin-left: 5rem;
+}
+
+.menuIconBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  display: none;
+}
+
+.menu.active {
+  display: flex;
+}
+
+.menuIcon {
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color:#dcdce4;
+  z-index: 2;
+  position: absolute;
+  width: 25rem;
+  right: 7%;
+  border-radius: 2rem;
+  display: none;
+}
+
+.menu li {
+  list-style: none;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.menu li:hover {
+  background-color: #b4182d;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
 .hero {
   display: flex;
   height: 64rem;
@@ -339,7 +390,6 @@ color: #FF6B00;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .about-img-container {
@@ -359,7 +409,7 @@ color: #FF6B00;
   font-size: 2rem;
   line-height: 1.5;
   margin-top: 2rem;
-  color:black;
+  color:black;  
 }
 
 .about-img {
@@ -577,7 +627,7 @@ color: #FF6B00;
 }
 
 .reviews-client-txt {
-  padding: 3rem 2rem 2rem 2rem; ;
+  padding: 3rem 2rem 2rem 2rem;
   color: black;
   line-height: 1.5;
   text-align: center;

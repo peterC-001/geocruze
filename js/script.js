@@ -43,5 +43,12 @@ quizes.forEach((quiz) => {
   });
 });
 
+const menuIcon = document.querySelector(".menuIcon");
+const menu = document.querySelector(".menu");
+const logo = document.querySelector(".logo");
 
+menuIcon.addEventListener("click", () => {
+  menu.classList.toggle("active");
+  logo.classList.toggle ("active");
+});
 

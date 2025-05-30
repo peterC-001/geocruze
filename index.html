@@ -59,8 +59,10 @@
   <section class="about" id="about">
     <div class="about-txt">
       <p>How it works</p>
-      <h2>GeoCruze Bikes</h2>
-      <p>GeoCruze offers a wide range of bikes for all types of riders. Whether you're looking for a mountain bike, road bike, or hybrid, we have the perfect ride for you. Our bikes are designed with the latest technology to ensure a smooth and enjoyable ride.</p>
+      <h2>Engineered to</h2>
+      <h2>perform, built</h2>
+      <h2>to last</h2>
+      <p>Built for every terrain and rider. From road to mountain, GeoCruze delivers precision, power, performance, and reliability.</p>
       <button class="about-btn">Discover More</button>
     </div>
     <div class="about-image">
@@ -82,12 +84,12 @@
       <div class="bikes-hybrid">
         <h2>Hybrid Bikes</h2>
         <p>Blending the best of both worlds, switching between pedal power and electrical assists to provide comfort and smart tech packed in one sleek ride.</p>
-        <button class="bikes-btn"><a href="">Browse Options</a></button>
+        <button class="bikes-btn btn-hybrid"><a href="">Browse Options</a></button>
       </div>
       <div class="bikes-electric">
         <h2>e Bikes</h2>
-        <p>Powered entirely by electricity, this bike delivers effortless speed, unmatched comfort, and a whisper-quiet ride—perfect for commuters, explorers, and anyone seeking a smooth, sustainable journey.</p>
-        <button class="bikes-btn"><a href="">Browse Options</a></button>
+        <p>Powered entirely by electricity, delivering effortless speed and a whisper-quiet ride—perfect for commuters, explorers, and seekers of a smooth journey.</p>
+        <button class="bikes-btn btn-electric"><a href="">Browse Options</a></button>
       </div>
     </div>
   </section>
@@ -118,9 +120,12 @@
   <section class="reviews" id="reviews">
     <div class="reviews-txt">
       <p>Client Reviews</p>
-      <h2>Why They Ride with Us</h2>
-      <p>“Our riders&apos; stories - from daily commuters to weekend explorers - fuel our passion to keep innovating.<span>Join the Ride — Hear Their Stories.</span>”
-      </p>
+      <div class="reviews-divider">
+        <h2>Why They Ride </h2>
+        <h2>With Us</h2>
+      </div>
+      <p>“Our riders&apos; stories - from daily commuters to weekend explorers </p> 
+      <p>fuel our passion to keep innovating.Join the Ride, Hear Their Stories.</p>
       <button class="reviews-btn-prev reviews-btn "><img src="assets/icons/arrowback.png" alt="" class="reviews-icons"></button>
       <button class="reviews-btn-next reviews-btn"><img src="assets/icons/arrowfoward.png" alt="" class="reviews-icons"></button>
     </div>
@@ -219,34 +224,35 @@
   <section class="parts-acc-merch" id="parts">
     <div class="parts-acc-merch-txt">
       <p>Parts & Aceessories</p>
-      <h1>Crack up Your Experience with Premium Gear</h1>
+      <h1>Crack up Your Experience </h1>
+      <h1>with Premium Gear</h1>
       <p>Whether you're upgrading your gear, replacing components, or adding a touch of personal style, we've got everything you need to enhance performance and stand out on the road.
       </p>
     </div>
     <div class="parts-acc-merch-container">
-      <div class="parts parts-item">
+      <div class="parts-item">
         <h2>Parts</h2>
         <p>Keep your bike in peak condition with durable, high-performance components built to last.
         </p>
         <div class="parts-btns">
-          <button class="parts-btn"><a href="">Shop Parts</a></button>
+          <button class="parts-btn"><a href="">Shop</a></button>
         </div>
       </div>
-      <div class="accessories parts-item">   
+      <div class="parts-item">   
         <h2>Accessories</h2>
-        <p>Keep your bike in peak condition with durable, high-performance components built to last.
+        <p>Upgrade your ride with premium accessories designed for style, function, and all-ride durability.
         </p>
         <div class="parts-btns">
-          <button class="parts-btn"><a href="">Shop Accessories</a></button>
+          <button class="parts-btn"><a href="">Shop</a></button>
         </div>
         
       </div>
-      <div class="merch parts-item">
+      <div class="parts-item">
         <h2>Merchandise</h2>
         <p>Keep your bike in peak condition with durable, high-performance components built to last.
         </p>
         <div class="parts-btns">
-          <button class="parts-btn"><a href="">Shop Merch</a></button>
+          <button class="parts-btn"><a href="">Shop</a></button>
         </div>
         
       </div>
@@ -258,10 +264,17 @@
   <div class="community-container">
     <div class="community-txt">
       <p>Community</p>
-      <h2>Pedal, Share, Connect: </h2>
-      <h2>Welcome to the Tribe</h2>
-      <p>Ride beyond the bike, where every pedal stroke brings you closer to fellow cyclists, new adventures, and endless inspiration.</p>
+      <div  class="community-divider">
+        <h2>Pedal, Connect: </h2>
+        <h2>Join the Tribe</h2>
+      </div>
+      <p>Ride beyond the bike, where every pedal stroke </p> 
+      <p>brings you closer to fellow cyclists, </p>
+      <p> and share new adventures.</p>
       <button class="community-btn">Join the Community</button>
+    </div>
+    <div class="community-image">
+       <img src="assets/images/community.png" alt="" class="community-img">
     </div>
   </div>
   
@@ -270,9 +283,12 @@
 <section class="faq">
   <div class="faq-txt">
     <p>Need Help? Start Here</p>
+    <div class="faq-divider">
     <h2>Explore</h2>
-    <h2>Our FAQ Section</h2>
-    <p>Everything you need to know before hitting the road.Your bike journey starts with the right information</p>
+     <h2>Our FAQ Section</h2>
+    </div>
+    <p>Everything you need to know before hitting the road. </p> 
+    <p>Bike journey starts with the right information</p>
     <div class="faq-image-container">
       <img src="assets/images/faq.png" alt="" class="faq-image">
     </div>
@@ -371,7 +387,7 @@
           <input type="email" id="email" name="email" placeholder="Email" required>
           <label for="message">Message</label>
           <textarea id="message" name="message" rows="1" placeholder="Message" required></textarea>
-          <button type="submit" class="contact-form-btn">Send a Message</button>
+          <button type="submit" class="contact-form-btn" id="sendBtn">Send a Message</button>
         </div>
     </div>
 
@@ -420,6 +436,8 @@
   </div>
   
 </footer>
+
+<div id="toast" class="toast">Message sent successfully!</div>
 
 <script src="js/script.js"></script>
 </body>

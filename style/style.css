@@ -61,28 +61,32 @@ body {
     display: flex !important;
     margin-right:5rem ;
   }
+  .hero{
+    height: 85rem !important;
+
+  }
   .hero-txt {
     font-size: 2.5rem !important;
     top: 10% !important;
   }
   .hero-img-right {
-    width: 60rem !important;
-    left: 45% !important;
-    top: 50% !important;
+    width: 110rem !important;
+    transform: translate(-22%, 25%) !important;
   }
   .hero-img-left {
-    width: 60rem !important;
-    right: 45% !important;
-    top: 50% !important;
+    width: 110rem !important;
+    transform: translate(30%, 28%) !important;
   }
   .about {
     flex-direction: column;
-    height: 110rem !important;
+    height: 128rem !important;
   }
   .about-txt {
-    padding: 5rem 7rem !important;
     text-align: center;
     flex: 1 !important;
+  }
+  .about-txt p {
+    margin: 4rem 0 !important;
   }
   .about-image {
     flex: 2.5 !important;
@@ -115,7 +119,7 @@ body {
     justify-content: center;
   }
   .reviews {
-    height: 90rem !important;
+    height: 100rem !important;
     flex-direction: column !important;
   }
   .reviews-txt {
@@ -146,7 +150,7 @@ body {
     max-width: 10rem !important;
   }
   .parts-acc-merch {
-    height: 140rem !important;
+    height: 160rem !important;
   }
   .parts-acc-merch-txt {
   
@@ -157,10 +161,30 @@ body {
     align-items: center !important;
   }
   .parts-item {
-    height: 30rem !important;
+    height: 35rem !important;
     width: 50rem !important;
     margin: 1rem 0rem !important;
     flex: none !important;
+  }
+  .community {
+    height: 100rem !important;
+  }
+  .community-container {
+    flex-direction: column !important;
+    height: 90rem !important;
+  }
+  .community-txt {
+    text-align: center !important;
+    flex: 0 !important;
+    padding: 0 !important;
+  }
+  .community-image{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .community-img {
+    width: 50rem !important;
   }
   .faq {
     height: 170rem !important;
@@ -200,9 +224,7 @@ body {
   .contact-form-email {
     max-width: 60rem !important;
   }
-  .contact-us-icon {
-    width: 8rem !important;
-  }
+ 
   footer {
     flex-direction: column !important;
     padding: 2rem 0 !important;
@@ -240,7 +262,6 @@ color: #FF6B00;
 
 .logo.active {
   justify-content: left;
-  margin-left: 5rem;
 }
 
 .menuIconBox {
@@ -265,19 +286,22 @@ color: #FF6B00;
   display: flex;
   flex-direction: column;
   background-color:#dcdce4;
-  z-index: 2;
+  z-index: 5;
   position: absolute;
-  width: 25rem;
-  right: 7%;
+  width: 90%;
   border-radius: 2rem;
   display: none;
+  height: 40vh;
+  justify-content: space-between;
+  padding: 4rem;
+  box-sizing: border-box;
 }
 
 .menu li {
   list-style: none;
   padding: 1rem 0;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   font-weight: bold;
 }
 
@@ -314,9 +338,9 @@ color: #FF6B00;
   font-size: 2.5rem;
 }
 .hero-txt h1 {
-  font-size: 4.4rem;
+  font-size: 5rem;
   margin: 0;
-  line-height: 2;
+  line-height: 1.4;
   font-family: 'Varino';
 }
 .hero-right {
@@ -365,7 +389,7 @@ color: #FF6B00;
 
 .about-txt {
   flex: 1 ;
-  padding: 20rem 2rem;
+  padding: 10rem 2rem;
 }
 
 .about-btn {
@@ -376,6 +400,7 @@ color: #FF6B00;
   border-radius: 4rem;
   font-weight: bold;
   transition: transform 1s ease;
+  margin-top: 2rem;
 }
 
 .about-btn:hover {
@@ -401,14 +426,13 @@ color: #FF6B00;
 
 .about-txt h2 {
   font-size: 4.4rem;
-  margin: 0;
-  line-height: 2;
+  margin:0;
   font-family: 'Varino';
 }
 .about-txt p {
   font-size: 2rem;
   line-height: 1.5;
-  margin-top: 2rem;
+  margin:4rem 10rem 4rem 0rem;
   color:black;  
 }
 
@@ -442,6 +466,7 @@ color: #FF6B00;
 
 .bikes-container {
   display: flex;
+  margin-top: 8rem;
 }
 
 .bikes-hybrid {
@@ -450,15 +475,15 @@ color: #FF6B00;
   background-image: url('../assets/images/hybrid.avif');
   background-size: cover;
   background-position: center;
-  height:46rem;
+  height:45rem;
   color:white;
-  padding: 1rem 2rem;
+  padding: 5rem 5rem;
   margin: 1rem 2rem;
-
+  box-sizing: border-box;
 }
 
 .bikes-hybrid h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin: 0;
   line-height: 2;
   font-family: 'Varino';
@@ -469,17 +494,32 @@ color: #FF6B00;
   background-image: url('../assets/images/electric.avif');
   background-size: cover;
   background-position: center;
-  height:46rem;
+  height:45rem;
+  box-sizing: border-box;
   color:white;
-  padding: 1rem 2rem;
+  padding: 5rem 5rem;
   margin: 1rem 2rem;
 }
 
 .bikes-electric h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin: 0;
   line-height: 2;
   font-family: 'Varino';
+}
+
+.bikes-container p {
+  margin-right: 15rem;
+}
+
+.btn-hybrid{
+  bottom: -5rem;
+  position: relative;
+}
+
+.btn-electric{
+  bottom: -5rem;
+  position: relative;
 }
 
 .bikes-btn {
@@ -551,19 +591,25 @@ color: #FF6B00;
 .reviews {
   display: flex;
   margin-top: 6rem;
-  height: 46;
+  height: 50rem;
+  align-items: center;
 }
 
 .reviews-txt {
   flex: 1;
   padding: 1rem;
+  
 }
 
 .reviews-txt h2 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   margin: 0;
-  line-height: 2;
+  line-height: 1.5;
   font-family: 'Varino';
+}
+
+.reviews-divider {
+  margin: 4rem 0rem;
 }
 
 .reviews-btn {
@@ -586,7 +632,7 @@ color: #FF6B00;
 .reviews-container {
   flex: 1;
   overflow: hidden;
-  border-radius: 5rem;
+  margin-top: 5rem;
 }
 
 .reviews-view {
@@ -710,61 +756,55 @@ color: #FF6B00;
   padding: 2rem 20rem;
 }
 .parts-acc-merch-txt h1 {
-  font-size: 3rem;
-  line-height: 2;
+  font-size: 3.5rem;
   font-family: 'Varino';
-  padding: 1rem 5rem;
+  padding: 0;
+  line-height: 1;
 }
 
 .parts-acc-merch-container {
   display: flex;
-  padding: 2rem;
+  padding: 2rem 7rem;
+  margin-top: 2rem;
+  gap: 4rem;
 }
 
 .parts {
   flex: 1;
   border-radius: 5rem;
-  background-image: url('../assets/images/parts01.jpg');
-  background-size: cover;
+  background-color: #dde3e1;
   height:38rem;
   padding: 1rem 2rem;
   margin: 1rem 2rem;
-  color:white;
+  color:black;
   transition: background-image 1s ease; 
 }
 
-.parts-acc-merch h2 {
-  font-size: 3rem;
+.parts-item h2 {
+  font-size: 2.5rem;
   margin: 0;
   line-height: 2;
   font-family: 'Varino';
-  color: #FF6B00;
 }
 
-.accessories {
+
+.parts-item {
+  text-align: center;
   flex: 1;
   border-radius: 5rem;
-  background-image: url('../assets/images/acc01.jpg');
-  background-size: cover;
-  height:38rem;
-  padding: 1rem 2rem;
-  margin: 1rem 2rem;
-  color:white;
-  transition: background-image 1s ease; 
+  background-color: #dde3e1;
+  height:40rem;
+  padding: 5rem 4rem;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-
-.merch {
-  flex: 1;
-  border-radius: 5rem;
-  background-image: url('../assets/images/merch01.png');
-  background-size: cover;
-  height:38rem;
-  padding: 1rem 2rem;
-  margin: 1rem 2rem;
-  color:white;
-  transition: background-image 1s ease; 
+.parts-item:hover {
+  transform: translateY(-1rem);
+  transition: transform 0.3s ease;
 }
+
 .parts-btns {
   display: flex;
   justify-content: center;
@@ -773,13 +813,13 @@ color: #FF6B00;
 .parts-btn {
   font-size: 2rem;
   padding: 1rem 5rem;
-  border: white solid 0.2rem;
-  color: white;
+  border: none;
   border-radius: 4rem;
   font-weight: bold;
   transition: trancsform 1s ease;
-  background: none;
-  transition: transform 1s ease;
+  background-color: #FF6B00;
+  color: white;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
 }
 
 .parts-btn:hover {
@@ -787,48 +827,45 @@ color: #FF6B00;
   transition: transform 1s ease;
 }
 
-.parts:hover {
-  background-image: url('../assets/images/parts02.jpg');
-  transition: background-image 1s ease; 
-}
-.accessories:hover {
-  background-image: url('../assets/images/acc02.jpg');
-  transition: background-image 1s ease;
-   
-}
-.merch:hover {
-  background-image: url('../assets/images/merch02.png');
-  transition: background-image 1s ease; 
-}
 
 .community {
   height: 62rem;
   padding: 5rem 2rem;
+  overflow: hidden;
 }
 
 .community-container {
-  background-image: url('../assets/images/community.png');
-  height: 50rem;
-  padding: 2rem;
+  background-color: #6ca9bb;
+  height: 55rem;
   border-radius: 5rem;
   background-size: cover;
   background-position:left;
   margin-top: 5rem;
+  box-sizing: border-box;
+  display: flex;
+  overflow: hidden;
 }
  
 .community-txt {
-  padding: 2rem;
+  flex: 1;
+  font-size: 2.2rem;
   color: black;
-  line-height: 1.5;
-  width: 41.5rem;
   transition: color 0.3s ease;
+  line-height: 0.6;
+  padding: 4rem;
 }
 
 .community-txt h2 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   margin-top: 3rem;
   font-family: 'Varino';
+  line-height: 0.7;
 }
+
+.community-divider {
+  margin: 6rem 0;
+}
+
 
 .community-btn {
   font-size: 2rem;
@@ -838,6 +875,7 @@ color: #FF6B00;
   font-weight: bold;
   transition: transform 1s ease;
   background: none;
+  margin-top: 4rem;
 }
 
 .community-btn:hover {
@@ -845,9 +883,17 @@ color: #FF6B00;
   transition: transform 1s ease;
 }
 
+.community-image{
+  flex: 1;
+}
+
+.community-img {
+  width: 53rem;
+  translate: 10% 20% ;
+}
+
 
 .faq {
-  height: 110rem;
   display: flex;
 }
 
@@ -858,29 +904,38 @@ color: #FF6B00;
   flex-direction: column;
 }
 
+.faq-txt p {
+  line-height: 0;
+  font-size: 2.2rem;
+}
+
 .faq-txt h2 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   margin: 0;
-  line-height: 2;
+  line-height: 1.4;
   font-family: 'Varino';
   color: #FF6B00;
 }
 
+.faq-divider {
+  margin: 5rem 0;
+}
+
 .faq-container {
   flex: 1;
-  gap: 5rem;
+  gap: 3rem;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   padding-top: 5rem;
+  margin-top: 18rem;
 }
 
 .faq-image-container {
   background-color: #FF4040;
   border-radius: 5rem;
-  height: 70rem;
+  height: 50rem;
   margin-top: 5rem;
-  width: 62rem;
+  width: 52rem;
 }
 
 .faq-image {
@@ -988,9 +1043,16 @@ color: #FF6B00;
   font-weight: bold;
 }
 
+.contact-us-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
 .contact-us-icon {
-  width: 10rem;
+  width: 4.2rem;
   transition: transform 0.3s ease;
+  flex: 1;
 }
 
 .contact-us-icon:hover {
@@ -1154,5 +1216,27 @@ footer {
   background-color: #FF6B00;
 }
 
+.toast {
+  visibility: hidden;
+  min-width: 25rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.8rem;
+  padding: 1.2rem 2rem;
+  position: fixed;
+  z-index: 999;
+  bottom: 3rem;
+  right: 3rem;
+  font-size: 2rem;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.toast.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
 
 

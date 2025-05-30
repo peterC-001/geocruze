@@ -22,6 +22,8 @@ body {
   font-size: 1.8rem;     
 }
 
+/* media queries */
+
 @media (max-width:1500px) {
   html {
     font-size: 62.5%;
@@ -228,6 +230,8 @@ body {
   }
 }
 
+/* Header */
+
 header {
   display: flex;
   padding:0;
@@ -260,6 +264,8 @@ color: #FF6B00;
 .logo.active {
   justify-content: left;
 }
+
+/* Menu */
 
 .menuIconBox {
   display: flex;
@@ -307,6 +313,8 @@ color: #FF6B00;
   color: #fff;
   padding: 1rem 2rem;
 }
+
+/* Hero */
 
 .hero {
   display: flex;
@@ -379,6 +387,8 @@ color: #FF6B00;
   transition: transform 1s ease;
 }
 
+/* About */
+
 .about {
   display: flex;
   height: 80rem;
@@ -438,6 +448,8 @@ color: #FF6B00;
   height: 100%;
   object-fit: cover;
 }
+
+/* Bikes */
 
 .bikes {
   height: 80rem;
@@ -537,6 +549,8 @@ color: #FF6B00;
   transition: transform 1s ease;
 }
 
+/* Build Details*/
+
 .build-details {
   margin-top: 6rem; 
   display: flex;
@@ -584,6 +598,8 @@ color: #FF6B00;
   transform: scale(1.1);
   transition: transform 1s ease;
 }
+
+/* Reviews */
 
 .reviews {
   display: flex;
@@ -683,6 +699,8 @@ color: #FF6B00;
   font-style: italic;
 }
 
+/* Partners */
+
 .partners {
   background-color: #dde4e6;
   border-radius: 5rem;
@@ -743,6 +761,8 @@ color: #FF6B00;
     transform: translateX(-100%);
   }
 }
+
+/* Parts */
 
 .parts-acc-merch {
   height: 80rem;
@@ -824,6 +844,7 @@ color: #FF6B00;
   transition: transform 1s ease;
 }
 
+/* Community */
 
 .community {
   height: 62rem;
@@ -889,6 +910,7 @@ color: #FF6B00;
   translate: 10% 20% ;
 }
 
+/* FAQ */
 
 .faq {
   display: flex;
@@ -995,6 +1017,8 @@ color: #FF6B00;
   line-height: 1.5;
   border-radius: 0rem 0rem 2rem 2rem;
 }
+
+/* Contact */
 
 .contact-txt {
   text-align: center;
@@ -1124,6 +1148,8 @@ color: #FF6B00;
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
 }
 
+/* Footer */
+
 footer {
   display: flex;
   padding:5rem 0rem;
@@ -1212,6 +1238,8 @@ footer {
   color: white;
   background-color: #FF6B00;
 }
+
+/* Toast */
 
 .toast {
   visibility: hidden;

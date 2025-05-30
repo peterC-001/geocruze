@@ -6,6 +6,7 @@ const style = window.getComputedStyle(card);
 const marginRight = parseFloat(style.marginRight);
 const reviewsWidth = card.offsetWidth + marginRight;
 
+/*reviews slider*/
 
 let index = 0;
 const totalCards = 6;
@@ -28,6 +29,8 @@ btnPrev.addEventListener("click", (event) => {
   }
 });
 
+/*faq*/
+
 const quizes = document.querySelectorAll(".faq-quizes");
 
 quizes.forEach((quiz) => {
@@ -48,6 +51,8 @@ quizes.forEach((quiz) => {
     }
   });
 });
+
+/*menu*/
 
 const menuIcon = document.querySelector(".menuIcon");
 const menu = document.querySelector(".menu");
@@ -72,6 +77,8 @@ document.getElementById("sendBtn").addEventListener("click", function () {
   email.value = "";
   message.value = "";
 });
+
+/*toast*/
 
 function showToast(msg) {
   const toast = document.getElementById("toast");
